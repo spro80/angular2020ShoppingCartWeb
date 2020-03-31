@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular9examplecalculator'`, () => {
+  it(`should have as title 'angular2020ShoppingCartWeb'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular9examplecalculator');
+    expect(app.title).toEqual('angular2020ShoppingCartWeb');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('angular9examplecalculator app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('angular2020ShoppingCartWeb app is running!');
   });
 });

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular9examplecalculator": {
+    "angular2020ShoppingCartWeb": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular9examplecalculator",
+            "outputPath": "dist/angular2020ShoppingCartWeb",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular9examplecalculator:build"
+            "browserTarget": "angular2020ShoppingCartWeb:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular9examplecalculator:build:production"
+              "browserTarget": "angular2020ShoppingCartWeb:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular9examplecalculator:build"
+            "browserTarget": "angular2020ShoppingCartWeb:build"
           }
         },
         "test": {
@@ -110,18 +110,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angular9examplecalculator:serve"
+            "devServerTarget": "angular2020ShoppingCartWeb:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "angular9examplecalculator:serve:production"
+              "devServerTarget": "angular2020ShoppingCartWeb:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "angular9examplecalculator",
+  "defaultProject": "angular2020ShoppingCartWeb",
   "cli": {
     "analytics": "5228c94e-44f0-47b3-82c2-39536656adbf"
   }
